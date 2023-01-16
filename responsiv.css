@@ -1,0 +1,123 @@
+@media only screen and (max-width:576px) {
+    .header {
+        display: grid;
+        justify-content: center;
+        padding-left: 500px;
+        padding-bottom: 100px;
+    }
+
+    .nav-right {
+        display: grid;
+        justify-content: center;
+        padding-left: 40vw;
+    }
+
+    .banner-title h1 {
+        font-size: 40px;
+    }
+
+    .banner-title p {
+        padding-left: 700px;
+        width: 500px;
+    }
+
+    .big-image-area {
+        padding-right: 30px;
+    }
+
+    .big-image {
+        width: 500px;
+        height: 270px
+    }
+
+    .section {
+        display: grid;
+        justify-content: center;
+    }
+
+    .section-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 802px;
+    }
+
+    .section-description {
+        display: grid;
+        justify-content: center;
+    }
+
+    .section-description h3 {
+        padding-left: 115vw;
+    }
+
+    .section-description p {
+        padding-left: 115vw;
+        width: 100vw;
+    }
+
+    .button-area {
+        padding-left: 115vw;
+    }
+
+    .article {
+        display: grid;
+        justify-content: center;
+    }
+
+    .second-section-image {
+        background-image: url('g3-architects/images/architect.png');
+        height: 150vh;
+        width: 250vw;
+    }
+
+    .creat-section {
+        display: grid;
+        justify-content: center;
+    }
+
+    .creat-section div p {
+        margin-top: 50px;
+        width: 100vw;
+    }
+
+    .fact-title {
+        padding-left: 650px;
+    }
+
+    .fact-title p {
+        width: 100vw;
+    }
+
+    .fact-article {
+        display: grid;
+        gap: 100px;
+        justify-content: center;
+    }
+
+
+    .last-section {
+        display: grid;
+        justify-content: center;
+    }
+
+    .sponser-article-paragraph {
+        width: 100vw;
+    }
+
+    .sponser-article {
+        display: grid;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        padding-right: 20vw;
+    }
+
+    footer {
+        width: 90vw;
+    }
+
+}

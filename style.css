@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
+
+body {
+    width: 1890px;
+    height: 1322px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*------------------
+ nav style start
+------------------*/
+#head {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+
+}
+
+.nav-right {
+    width: 350px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    padding: 63px 240px 0 0;
+}
+
+.nav-left {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding: 50px 673px 0 228px;
+}
+
+/*---------------- 
+nav style end
+--------------- */
+
+/* Banner style start */
+
+.banner-discription {
+    text-align: center;
+}
+
+.banner-discription h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-discription p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    padding: 0 526px 32px 526px;
+}
+
+.button {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: #FF900E;
+    border: 0;
+}
+
+.big-image {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    padding: 0 240px 45px 240px;
+}
+
+
+/* Banner style end */
+
+.section {
+    display: flex;
+}
+
+.section-1 {
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(2, 342px);
+    margin: 130px 75px 137px 301px;
+    gap: 24px;
+}
+
+.section-1 img {
+    width: 342px;
+    height: 342px;
+
+}
+
+.section-description {
+    padding: 330px 300px 0 0;
+    width: 537;
+    height: 340px;
+}
+
+
+/* problem start */
+
+
+/* article style */
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 100px 440px 100px 440px; */
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+}
+
+.second-section-image {
+    background-image: url('g3-architects/images/architect.png');
+    height: 100vh;
+    width: 30vw;
+}
+
+.second-section-name-area {
+    padding-top: 850px;
+}
+
+
+.second-section-name {
+    height: 12vh;
+    width: 20vh;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1px;
+    background-color: #FF900E;
+}
+
+.second-section-tittle {
+    border-left: 5px solid #FF900E;
+}
+
+.second-section-tittle strong {
+    padding-left: 10px;
+}
+
+.second-section-info {
+    padding-left: 20px;
+}
+
+
+.seceond-section-btn {
+    background-color: #FF900E;
+    height: 20vh;
+    width: 20vw;
+    text-align: center;
+}
+
+/* creat section */
+
+.creat-section {
+    display: flex;
+    margin: 100px 240px 100px 240px;
+    gap: 50px;
+}
+
+.creat-section div h1 {
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.creat-section div p {
+    margin-top: 50px;
+}
+
+.creat-section div img {
+    width: 500px;
+    height: 400px;
+}
+
+/* creat section ends */
+
+
+
+.fact-title {
+    padding-left: 240px;
+}
+
+
+.fact-article {
+    display: flex;
+    gap: 100px;
+    padding: 100px 240px 100px 240px;
+
+
+}
+
+.fact-article div {
+    text-align: center;
+    border: 1px solid #FF900E;
+    width: 241px;
+    height: 241px;
+
+
+
+}
+
+
+
+.fact-image {
+    width: 45px;
+    height: 45px;
+    padding-top: 34px;
+    /* animation-name: zinnat;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-fill-mode: both; */
+}
+
+
+.fact-article div:hover {
+    background-color: #FF900E;
+    animation-name: zinnat;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes zinnat {
+    from {
+        width: 241px;
+        height: 241px;
+    }
+
+    to {
+        width: 200.5px;
+        height: 200.5px;
+    }
+}
+
+/* sponcer article */
+.sponser-article-title {
+    text-align: center;
+}
+
+.sponser-article-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    width: 327px;
+    height: 53px;
+    margin-top: 180px;
+}
+
+.sponser-article-paragraph {
+
+    height: 52px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponser-article {
+    display: flex;
+    gap: 20px;
+    margin-top: 69px;
+    padding-left: 230px;
+    padding-right: 302px;
+    justify-content: space-between;
+
+
+}
+
+.sponser-photo {
+    width: 165.83px;
+    height: 50px;
+
+}
+
+
+
+/* footer style  */
+
+footer {
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 177px;
+    margin-top: 130px;
+    padding-top: 71px;
+}
